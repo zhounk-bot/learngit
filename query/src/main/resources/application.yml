@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.42.231.104:3306/Test-znk
+    username: brains
+    password: Brains1234!
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    open-in-view: false
+    show-sql: false
+    hibernate:
+      ddl-auto: update
